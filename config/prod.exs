@@ -13,8 +13,8 @@ use Mix.Config
 # which you typically run after static files are built.
 config :peepchat, Peepchat.Endpoint,
   http: [port: {:system, "PORT"}],
-  url: [host: "example.com", port: 80],
-  cache_static_manifest: "priv/static/manifest.json"
+  force_ssl: [rewrite_on: [:x_forwarded_proto]],
+  url: [host: "agile-basin-56341.herokuapp.com", port: 443]
 
 # Do not print debug messages in production
 config :logger, level: :info

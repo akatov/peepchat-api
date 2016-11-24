@@ -1,5 +1,7 @@
 # Peepchat
 
+[![Build Status](https://travis-ci.org/akatov/peepchat-api.svg)](https://travis-ci.org/akatov/peepchat-api)
+
 To start your Phoenix app:
 
   * Install dependencies with `mix deps.get`
